@@ -48,7 +48,7 @@ export default function Runaway() {
   return (
     <>
       <div>
-        <Header text="Runaway"/>
+        <Header text="[1/2] Runaway"/>
         {/* <Nav/> */}
         {/* <div class="explainer">
           <p class="silkscreen-regular" style={{ textAlign: 'left' }}>
@@ -77,7 +77,7 @@ export default function Runaway() {
 
           <div class="silkscreen-regular" id="char">
             <p>O_O &gt; What road are they on and which direction are they going in?</p>
-            <p class="example">Format: if you think the answer is main st westward, type in mainw in lowercase</p>
+            <p class="example">Format: if you think the answer is Main St westward, type in mainw in lowercase</p>
           </div>
 
           <video width="270" height="440" controls>
@@ -129,7 +129,7 @@ export default function Runaway() {
               <img class="photo" src={sol2} alt="property" style={{ marginRight: '20px', width: '100px' }}/>
               <img class="photo" src={sol3} alt="property" style={{ width: '100px' }}/>
               <p>
-                Going onto Google Maps, we can pinpoint out approximate location based on where we are positioned based on the perspective of the skyline. 
+                Going onto Google Maps, we can pinpoint our approximate location based on where we are positioned based on the perspective of the skyline. 
                 We are on Citylink going southward.
               </p>
               <img class="photo" src={sol4} alt="property"/>

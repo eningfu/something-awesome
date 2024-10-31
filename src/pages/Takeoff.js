@@ -45,7 +45,7 @@ export default function Takeoff() {
   return (
     <>
       <div>
-        <Header text="Take Off"/>
+        <Header text="[2/2] Take Off"/>
         {/* <Nav/> */}
         {/* <div class="explainer">
           <p class="silkscreen-regular" style={{ textAlign: 'left' }}>

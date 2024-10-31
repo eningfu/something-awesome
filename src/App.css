@@ -1,5 +1,5 @@
 .silkscreen-regular {
-  font-family: "Silkscreen", system-ui;
+  font-family: "Fira Code", system-ui;
   font-weight: 400;
   font-style: normal;
 }
@@ -87,7 +87,7 @@ li a:hover {
 input {
   border: none;
   padding: 10px;
-  font-family: "Silkscreen", system-ui;
+  font-family: "Fira Code", system-ui;
   width: 200px;
 }
 

@@ -69,7 +69,7 @@ export default function Crypt() {
           {submitted && (
             <div class="silkscreen-regular" id="char">
               <p id="response">^_^ &gt; Nice work! We shall pass this information on. Guess we are heading to Europe.</p>
-              <button><a href="/sqli">next &gt;</a></button>
+              <button><a href="/steganography">next &gt;</a></button>
             </div>
           )}
 

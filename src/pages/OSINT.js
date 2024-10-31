@@ -22,8 +22,7 @@ export default function Takeoff() {
             image—such as landmarks, weather conditions, or street signs—can also help identify 
             the location. Reverse image searches can trace where the photo has been used or 
             shared online, offering insights into its origin or the context in which it was 
-            taken. By combining these elements, investigators can uncover significant details 
-            from a seemingly simple image.
+            taken.
           </p>
           <img class="photo" src={imgexp} alt="property" style={{ marginRight: '20px' }}/>
           <img class="photo" src={exp} alt="property"/>

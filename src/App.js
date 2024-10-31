@@ -2,12 +2,16 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Landing from './pages/Landing';
 import Crypt from './pages/Crypt';
+import SQLi from './pages/SQLi';
+
 import Runaway from './pages/Runaway';
 import Takeoff from './pages/Takeoff';
-import SQLi from './pages/SQLi';
-import Stega from './pages/Stega';
+import Language from './pages/Language';
+import Canyouhearme from './pages/Canyouhearme';
 
+import Stega from './pages/Stega';
 import OSINT from './pages/OSINT';
+
 
 function App() {
   return (
@@ -18,11 +22,14 @@ function App() {
           <Route path="/osint" element={<OSINT/>} />
           <Route path="/runaway" element={<Runaway/>} />
           <Route path="/takeoff" element={<Takeoff/>} />
-          {/* <Route path="/foreign" element={<Foreign/>} /> */}
-          
+
+          <Route path="/steganography" element={<Stega/>}/>
+          <Route path="/language" element={<Language/>} />
+          <Route path="/canyouhearme" element={<Canyouhearme/>} />
+
           <Route path="/cryptography" element={<Crypt/>} />
           <Route path="/sqli" element={<SQLi/>} />
-          <Route path="/steganography" element={<Stega/>}/>
+
         </Routes>
       </BrowserRouter>
     </>
