@@ -27,7 +27,7 @@ export default function Stega() {
             and punctuation; an example could involve placing a message within specific letters of a document using whitespace manipulation. 
           </p>
         </div>
-        <button style={{ marginBottom: '30px' }}><a href="/language">ready? &gt;</a></button>
+        <button style={{ marginBottom: '30px' }}><a href="/hidden">ready? &gt;</a></button>
       </div>
     </>
   );

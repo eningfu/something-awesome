@@ -41,7 +41,7 @@ export default function Language() {
   return (
     <>
       <div>
-        <Header text="[1/2] Language"/>
+        <Header text="[2/2] Language"/>
 
         <div class="challenge">
           <p class="silkscreen-regular">?_? &gt; We found this message in their inbox, here is what it said. The contents are a bit strange but we sense something is there...</p>
@@ -78,7 +78,7 @@ export default function Language() {
           {submitted && (
             <div class="silkscreen-regular" id="char">
               <p id="response">^_^ &gt; Nice work! We shall pass this information on. So it seems that the suspect thinks we've seen them before...</p>
-              <button><a href="/canyouhearme">next &gt;</a></button>
+              <button><a href="/sqli">next &gt;</a></button>
             </div>
           )}
 

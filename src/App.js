@@ -7,7 +7,7 @@ import SQLi from './pages/SQLi';
 import Runaway from './pages/Runaway';
 import Takeoff from './pages/Takeoff';
 import Language from './pages/Language';
-import Canyouhearme from './pages/Canyouhearme';
+import Hidden from './pages/Hidden';
 
 import Stega from './pages/Stega';
 import OSINT from './pages/OSINT';
@@ -29,7 +29,7 @@ function App() {
 
           <Route path="/steganography" element={<Stega/>}/>
           <Route path="/language" element={<Language/>} />
-          <Route path="/canyouhearme" element={<Canyouhearme/>} />
+          <Route path="/hidden" element={<Hidden/>} />
 
           <Route path="/sqli" element={<SQLi/>} />
 
