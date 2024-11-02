@@ -43,14 +43,16 @@ export default function Canyouhearme() {
         <Header text="[2/2] Can You Hear Me"/>
 
         <div class="challenge">
-          <p class="silkscreen-regular">?_? &gt; We found this file, here is what it said. The contents are a bit strange but we sense something is there...</p>
+          <p class="silkscreen-regular">?_? &gt; We intercepted this call. Do you think you understand?</p>
 
           <div class="silkscreen-regular" id="char">
             <p>O_O &gt; What does it say?</p>
             <p class="example">Format: if you think the answer is Hello you are cool, type in helloyouarecool in lowercase</p>
           </div>
 
-
+          <a href="/images/voicemail.wav" download>
+            voicemail.wav
+          </a>
 
           <div class="answerbox">
             <input 

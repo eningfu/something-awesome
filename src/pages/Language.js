@@ -44,11 +44,11 @@ export default function Language() {
         <Header text="[1/2] Language"/>
 
         <div class="challenge">
-          <p class="silkscreen-regular">?_? &gt; We found this file, here is what it said. The contents are a bit strange but we sense something is there...</p>
+          <p class="silkscreen-regular">?_? &gt; We found this message in their inbox, here is what it said. The contents are a bit strange but we sense something is there...</p>
 
           <div class="silkscreen-regular" id="char">
             <p>O_O &gt; What does it say?</p>
-            <p class="example">Format: if you think the answer is Hello you are cool, type in helloyouarecool in lowercase</p>
+            <p class="example">Format: if you think the answer is "Hello you are cool", type in helloyouarecool in lowercase</p>
           </div>
 
           <div style={{ textAlign: "left", margin: "auto", padding: "30px", width: "600px", backgroundColor: "white", color: "black", fontFamily: "monospace" }}>

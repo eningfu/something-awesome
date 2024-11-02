@@ -11,6 +11,7 @@ import Canyouhearme from './pages/Canyouhearme';
 
 import Stega from './pages/Stega';
 import OSINT from './pages/OSINT';
+import Scrambled from './pages/Scrambled';
 
 
 function App() {
@@ -22,12 +23,14 @@ function App() {
           <Route path="/osint" element={<OSINT/>} />
           <Route path="/runaway" element={<Runaway/>} />
           <Route path="/takeoff" element={<Takeoff/>} />
+          
+          <Route path="/cryptography" element={<Crypt/>} />
+          <Route path="/scrambled" element={<Scrambled/>} />
 
           <Route path="/steganography" element={<Stega/>}/>
           <Route path="/language" element={<Language/>} />
           <Route path="/canyouhearme" element={<Canyouhearme/>} />
 
-          <Route path="/cryptography" element={<Crypt/>} />
           <Route path="/sqli" element={<SQLi/>} />
 
         </Routes>
