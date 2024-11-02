@@ -45,6 +45,7 @@ export default function Canyouhearme() {
     <>
       <div>
         <Header text="[1/2] Hidden"/>
+        <div style={{ backgroundColor: "white", height: "10px", width: "57%" }}></div>
 
         <div class="challenge">
           <p class="silkscreen-regular">?_? &gt; Found a computer but we still need a password. What an interesting wallpaper...</p>
