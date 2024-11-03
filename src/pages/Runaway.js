@@ -49,7 +49,7 @@ export default function Runaway() {
     <>
       <div>
         <Header text="[1/2] Runaway"/>
-        <div style={{ backgroundColor: "white", height: "10px", width: "14%" }}></div>
+        <div style={{ backgroundColor: "white", height: "10px", width: "16%" }}></div>
         {/* <Nav/> */}
         {/* <div class="explainer">
           <p class="silkscreen-regular" style={{ textAlign: 'left' }}>

@@ -13,7 +13,9 @@ export default function Takeoff() {
         <div class="explainer">
           <p class="silkscreen-regular" style={{ textAlign: 'left' }}>
             OSINT, or open-source intelligence, is the gathering of information from public 
-            available sources such as websites, social media, and publications.
+            available sources such as websites, social media, and publications. This intelligence 
+            can encompass a wide range of data, including IP addresses, which can be analyzed to 
+            identify ownership, geographical location, and associated network details.
             <br/>
             <br/>
             When analyzing a photo, OSINT techniques can reveal hidden information. Metadata 

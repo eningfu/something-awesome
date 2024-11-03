@@ -57,7 +57,7 @@ export default function Scrambled() {
     <>
       <div>
         <Header text="[1/1] Scrambled"/>
-        <div style={{ backgroundColor: "white", height: "10px", width: "42%" }}></div>
+        <div style={{ backgroundColor: "white", height: "10px", width: "50%" }}></div>
 
         <div class="challenge">
           <p class="silkscreen-regular">?_? &gt; Okay, we didn't catch the suspect but we did find their hideout with a keypad. Look! There's another letter under the mat.

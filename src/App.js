@@ -1,6 +1,7 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Landing from './pages/Landing';
+import Ending from './pages/Ending';
 
 import Runaway from './pages/Runaway';
 import Takeoff from './pages/Takeoff';
@@ -33,6 +34,8 @@ function App() {
 
           <Route path="/xss" element={<Xss/>} />
           <Route path="/letmein" element={<Letmein/>} />
+
+          <Route path="/ending" element={<Ending/>} />
 
         </Routes>
       </BrowserRouter>

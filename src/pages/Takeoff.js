@@ -46,7 +46,7 @@ export default function Takeoff() {
     <>
       <div>
         <Header text="[2/2] Take Off"/>
-        <div style={{ backgroundColor: "white", height: "10px", width: "28%" }}></div>
+        <div style={{ backgroundColor: "white", height: "10px", width: "33%" }}></div>
         {/* <Nav/> */}
         {/* <div class="explainer">
           <p class="silkscreen-regular" style={{ textAlign: 'left' }}>

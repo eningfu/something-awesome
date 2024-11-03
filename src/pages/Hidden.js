@@ -6,7 +6,7 @@ import sol from './images/hidden.png';
 import sol1 from './images/hidden1.png';
 import sol2 from './images/hidden2.png';
 
-export default function Canyouhearme() {
+export default function Hidden() {
   const [answer, setAnswer] = useState(''); 
   const [submitted, setSubmitted] = useState(false);
   const [incorrect, setIncorrect] = useState(false);
@@ -45,7 +45,7 @@ export default function Canyouhearme() {
     <>
       <div>
         <Header text="[1/2] Hidden"/>
-        <div style={{ backgroundColor: "white", height: "10px", width: "57%" }}></div>
+        <div style={{ backgroundColor: "white", height: "10px", width: "66%" }}></div>
 
         <div class="challenge">
           <p class="silkscreen-regular">?_? &gt; Found a computer but we still need a password. What an interesting wallpaper... think there's something hidden?</p>

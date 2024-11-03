@@ -63,7 +63,7 @@ export default function Letmein() {
     <>
       <div>
         <Header text="[1/1] Let Me In"/>
-        <div style={{ backgroundColor: "white", height: "10px", width: "85%" }}></div>
+        <div style={{ backgroundColor: "white", height: "10px", width: "100%" }}></div>
 
         <div class="challenge">
           <p class="silkscreen-regular">?_? &gt; This website was also opened in the background. I snooped around for a bit and I think we need to run a so called secret() function. Do you know to? </p>
@@ -105,8 +105,8 @@ export default function Letmein() {
   
           {submitted && (
             <div class="silkscreen-regular" id="char">
-              <p id="response">^_^ &gt; Nice work! We shall pass this information on.</p>
-              <button><a href="/sqli">next &gt;</a></button>
+              <p id="response">^_^ &gt; Nice work! We shall pass this information on. Guess we're going somewhere else now...</p>
+              <button><a href="/ending">next &gt;</a></button>
             </div>
           )}
 

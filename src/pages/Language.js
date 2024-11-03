@@ -42,7 +42,7 @@ export default function Language() {
     <>
       <div>
         <Header text="[2/2] Language"/>
-        <div style={{ backgroundColor: "white", height: "10px", width: "71%" }}></div>
+        <div style={{ backgroundColor: "white", height: "10px", width: "83%" }}></div>
 
         <div class="challenge">
           <p class="silkscreen-regular">?_? &gt; We found this message in their inbox, here is what it said. The contents are a bit strange but we sense something is there...</p>
@@ -79,7 +79,7 @@ export default function Language() {
           {submitted && (
             <div class="silkscreen-regular" id="char">
               <p id="response">^_^ &gt; Nice work! We shall pass this information on. So it seems that the suspect thinks we've seen them before...</p>
-              <button><a href="/sqli">next &gt;</a></button>
+              <button><a href="/xss">next &gt;</a></button>
             </div>
           )}
 
