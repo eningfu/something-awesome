@@ -1,6 +1,11 @@
 import { useState } from 'react';
 import Header from './components/Header';
 // import Nav from './components/Nav';
+import sol from './images/lmi.png';
+import sol1 from './images/lmi1.png';
+import sol2 from './images/lmi2.png';
+import sol3 from './images/lmi3.png';
+import sol4 from './images/lmi4.png';
 
 export default function Letmein() {
   const [answer, setAnswer] = useState(''); 
@@ -10,7 +15,7 @@ export default function Letmein() {
   const [hint, setHint] = useState(false);
 
   const handleConfirm = () => {
-    if (answer === "1") {
+    if (answer === "100mnortheast") {
       setSubmitted(true);
       setIncorrect(false);
       setSolution(true);
@@ -46,9 +51,13 @@ export default function Letmein() {
   };
 
   function secret() {
-    alert("found me");
+    alert("100m northeast");
   }
   window.secret = secret;
+
+  const text = "'\"<h1>hi</h1> ";
+  const text2 = "<button onclick=secret()>click me</button>";
+  const text3 = "<img src=x onerror=secret()></img>";
   
   return (
     <>
@@ -111,15 +120,61 @@ export default function Letmein() {
 
           {hint && (
             <div class="silkscreen-regular">
-              <p class="hint">Try looking at the </p>
+              <p class="hint">Try inputting some HTML tags as well</p>
             </div>
           )}
 
           {solution && (
             <div class="silkscreen-regular" id="solutionexp">
               <p>
-                BRAH
+                The first step in exploiting the vulnerability is to experiment with various inputs to check for any sanitization measures in place. A good starting point is to use a straightforward input like:
               </p>
+              <code>{text}</code>
+              <p>
+                This input serves multiple purposes:
+                <ul style={{ textAlign: "left" }}>
+                  <li>
+                    It tests for JavaScript injection by including both single (') and double (") quotes
+                  </li>
+                  <li>
+                    It checks for HTML injection by incorporating an HTML tag (&lt;h1&gt;)
+                  </li>
+                </ul>
+                We can easily determine that it’s reflected xss that we are working with here.
+              </p>
+              <img class="photo" src={sol} alt="sol"/>
+              <p>
+                We want to find a way to run the “secret()” function. We can first try to see if inputting a simple &lt;script&gt; tag will work 
+                but it appears the website sanitises script tags, preventing direct execution of JavaScript.
+              </p>
+              <img class="photo" src={sol1} alt="sol"/>
+              <p>
+                Fortunately, there are alternative ways to execute JavaScript functions without directly using the &lt;script&gt; tag. One effective method 
+                is to use event listeners, which can trigger JavaScript execution under specific conditions.
+                <br/><br/>
+                <b>Using the onclick Event</b>
+                <br/><br/>
+                One option is to create a button that, when clicked, will invoke the secret() function. The input would look like this:
+              </p>
+              <code>{text2}</code>
+              <br/><br/>
+              <img class="photo" src={sol2} alt="sol"/>
+              <p>
+                When this button is rendered, clicking it will call the secret() function, successfully triggering the alert.
+                <br/><br/>
+                <b>Using the onerror Event</b>
+                <br/><br/>
+                Another approach is to leverage the onerror event handler, which can be applied to elements like images. For example, 
+                we can create an image tag with a source that is guaranteed to fail, which would then call the secret() function when the error occurs:
+              </p>
+              <code>{text3}</code>
+              <br/><br/>
+              <img class="photo" src={sol3} alt="sol"/>
+              <p>
+                This method works because when the browser fails to load the image (as 'x' is not a valid image source), the onerror event 
+                is triggered, executing the secret() function and displaying the alert.
+              </p>
+              <img class="photo" src={sol4} alt="sol"/>
             </div>
           )}
         </div>
