@@ -8,7 +8,7 @@ export default function Takeoff() {
   return (
     <>
       <div>
-        <Header text="What is OSINT?"/>
+        <Header text="What is Open-Source Intelligence (OSINT)?"/>
         {/* <Nav/> */}
         <div class="explainer">
           <p class="silkscreen-regular" style={{ textAlign: 'left' }}>

@@ -6,7 +6,7 @@ export default function Crypt() {
   return (
     <>
       <div>
-        <Header text="Cryptography"/>
+        <Header text="What is Cryptography?"/>
         {/* <Nav/> */}
         <div class="explainer">
           <p class="silkscreen-regular" style={{ textAlign: 'left' }}>

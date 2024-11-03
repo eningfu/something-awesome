@@ -48,7 +48,7 @@ export default function Canyouhearme() {
         <div style={{ backgroundColor: "white", height: "10px", width: "57%" }}></div>
 
         <div class="challenge">
-          <p class="silkscreen-regular">?_? &gt; Found a computer but we still need a password. What an interesting wallpaper...</p>
+          <p class="silkscreen-regular">?_? &gt; Found a computer but we still need a password. What an interesting wallpaper... think there's something hidden?</p>
 
           <div class="silkscreen-regular" id="char">
             <p>O_O &gt; What does it say?</p>
@@ -92,7 +92,7 @@ export default function Canyouhearme() {
           {solution && (
             <div class="silkscreen-regular" id="solutionexp">
               <p>
-                We start by downloading this image. There are several tools available to us to detect steganography. 
+                We start by downloading this image. There are several tools available to us to detect steganography in our teminals. 
                 The one we will use is called steghide (sudo apt install steghide first if we don’t have it). We run 
                 the following command in our terminal:
               </p>
@@ -101,9 +101,9 @@ export default function Canyouhearme() {
               <img class="photo" src={sol} alt="wallpaper" style={{ marginTop: "20px" }}/>
               <p>
                 But we discover the file is password protected, and we encounter a prompt asking for the password. 
-                Of course we don’t know the password but there is a way to brute force it - using Stegcracker (sudo 
-                apt install Stegcracker first if we don’t have it). This tool is specifically designed to brute-force 
-                Steghide passwords.We just need a wordlist, and one of the most commonly used lists is rockyou.txt. 
+                Of course we don’t know the password but there is a way to brute force it - using Stegcracker or Stegseek (sudo 
+                apt install stegcracker/stegseek first if we don’t have it). This tool is specifically designed to brute-force 
+                Steghide passwords. We just need a wordlist, and one of the most commonly used lists is rockyou.txt. 
                 Now we try this command in our terminal.
               </p>
               <code>stegcracker wallpaper.jpg rockyou.txt</code>

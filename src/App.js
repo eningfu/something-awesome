@@ -1,18 +1,18 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Landing from './pages/Landing';
-import Crypt from './pages/Crypt';
-import SQLi from './pages/SQLi';
 
 import Runaway from './pages/Runaway';
 import Takeoff from './pages/Takeoff';
 import Language from './pages/Language';
 import Hidden from './pages/Hidden';
+import Scrambled from './pages/Scrambled';
+import Letmein from './pages/Letmein';
 
 import Stega from './pages/Stega';
 import OSINT from './pages/OSINT';
-import Scrambled from './pages/Scrambled';
-
+import Crypt from './pages/Crypt';
+import Xss from './pages/Xss';
 
 function App() {
   return (
@@ -31,7 +31,8 @@ function App() {
           <Route path="/language" element={<Language/>} />
           <Route path="/hidden" element={<Hidden/>} />
 
-          <Route path="/sqli" element={<SQLi/>} />
+          <Route path="/xss" element={<Xss/>} />
+          <Route path="/letmein" element={<Letmein/>} />
 
         </Routes>
       </BrowserRouter>

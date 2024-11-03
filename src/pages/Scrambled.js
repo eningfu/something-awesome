@@ -60,12 +60,12 @@ export default function Scrambled() {
         <div style={{ backgroundColor: "white", height: "10px", width: "42%" }}></div>
 
         <div class="challenge">
-          <p class="silkscreen-regular">?_? &gt; Okay, we didn't catch the suspect but we did find their hideout with a keypad. Also, here are those letters.
-            I've pieced it together like a jigsaw but it still doesn't make any sense...</p>
+          <p class="silkscreen-regular">?_? &gt; Okay, we didn't catch the suspect but we did find their hideout with a keypad. Look! There's another letter under the mat.
+            The letters fit together like a jigsaw but it still doesn't make any sense... and I think the password's on here.</p>
 
           <div class="silkscreen-regular" id="char">
-            <p>O_O &gt; What does the letter say? If it says the password, just type in the password instead of the whole letter.</p>
-            <p class="example">Format: if you think the letter says "Hello you are cool. BTW password is 1234", type in 1234</p>
+            <p>O_O &gt; What is the password?</p>
+            <p class="example">Format: if you think the password is "hello", type in hello in lowercase</p>
           </div>
 
           <div style={{ textAlign: "left", margin: "auto", padding: "30px", width: "600px", backgroundColor: "white", color: "black", fontFamily: "monospace" }}>
@@ -93,7 +93,7 @@ export default function Scrambled() {
 
           {incorrect && (
             <div class="silkscreen-regular" id="char">
-              <p id="error">Wrong answer. Please try again. Make sure you are typing in the right thing!</p>
+              <p id="error">Wrong answer. Please try again. (Remember to use lowercase)</p>
               <button onClick={handleHint}>hint?</button>
               <button onClick={handleSolution}>solution</button>
             </div>
