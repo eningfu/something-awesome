@@ -60,7 +60,7 @@ export default function Ending() {
 
         {submitted2 && !submitted3 && (
           <div className="silkscreen-regular" id="char">
-            <p>^O^ ^O^ ^O^ ^O^ &gt; HAPPY BIRTHDAY </p>
+            <p>^O^ ^O^ ^O^ ^O^ &gt; 🎁🎈✨🎉 HAPPY BIRTHDAY 🎉✨🎈🎁</p>
             <p className="silkscreen-regular">^_^ &gt; Sorry to disappoint but the case wasn't real. You were so caught up with it that you didn't realise it is your birthday today!</p>
             <button className="checker" id="confirm" onClick={handleConfirm3} style={{ marginLeft: "0px" }}>
               That case took two days? &gt;
