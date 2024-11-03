@@ -72,7 +72,7 @@ export default function Runaway() {
 
         <div class="challenge">
           <p class="silkscreen-regular">
-            -_- &gt; This suspect has been to a couple places where they have hidden letters to taunt us and we want to find them. They posted this video that shows the area 
+            -_- &gt; This suspect has been to a couple places where they have left hidden letters for an ally and we want to find them before they do. They posted this video that shows the area 
             where they dropped their first letter.
           </p>
 

@@ -86,7 +86,7 @@ export default function Scrambled() {
 
           {submitted && (
             <div class="silkscreen-regular" id="char">
-              <p id="response">^_^ &gt; Nice work! We shall pass this information on. Never tried the sauce before.</p>
+              <p id="response">^_^ &gt; Nice work! We shall pass this information on. I guess we got here before the ally did.</p>
               <button><a href="/steganography">next &gt;</a></button>
             </div>
           )}

@@ -78,7 +78,7 @@ export default function Language() {
           
           {submitted && (
             <div class="silkscreen-regular" id="char">
-              <p id="response">^_^ &gt; Nice work! We shall pass this information on. So it seems that the suspect thinks we've seen them before...</p>
+              <p id="response">^_^ &gt; Nice work! We shall pass this information on. So it seems that the suspect thinks we've seen them before and warned their ally...</p>
               <button><a href="/xss">next &gt;</a></button>
             </div>
           )}
