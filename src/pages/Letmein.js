@@ -127,7 +127,7 @@ export default function Letmein() {
           {solution && (
             <div class="silkscreen-regular" id="solutionexp">
               <p>
-                The first step in exploiting the vulnerability is to experiment with various inputs to check for any sanitization measures in place. A good starting point is to use a straightforward input like:
+                The first step in exploiting the vulnerability is to experiment with various inputs to check for any sanitisation measures in place. A good starting point is to use a straightforward input like:
               </p>
               <code>{text}</code>
               <p>

@@ -11,7 +11,7 @@ export default function Crypt() {
         <div class="explainer">
           <p class="silkscreen-regular" style={{ textAlign: 'left' }}>
             Cryptography is the practice of securing information by transforming it into an 
-            unreadable format, ensuring that only authorized parties can access it. 
+            unreadable format, ensuring that only authorised parties can access it. 
             <br/>
             <br/>
             The Caesar cipher, one of the earliest and simplest encryption methods, works by 
@@ -27,7 +27,7 @@ export default function Crypt() {
             uses a repeating key to shift each letter by a different amount based on the key’s 
             letters. The Vigenère cipher was an improvement on Caesar, as it introduced variability 
             that made it harder to break. Another is the Substitution cipher, which replaces each 
-            letter in the plaintext with a different letter in the alphabet, often randomized, 
+            letter in the plaintext with a different letter in the alphabet, often randomised, 
             creating a one-to-one relationship between plaintext and ciphertext.
             <br/>
             <br/>

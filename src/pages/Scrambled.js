@@ -109,7 +109,7 @@ export default function Scrambled() {
             <div class="silkscreen-regular" id="solutionexp">
               <p>The first thing we do is try to recognise what cipher is being used. Based on what we see, it seems like a 
                 substitution cipher that includes symbols, which means that we have to do the deciphering manually. A 
-                common approach to solving substitution ciphers is frequency analysis - analyzing the frequency of symbols 
+                common approach to solving substitution ciphers is frequency analysis - analysing the frequency of symbols 
                 and mapping them to common letters in English (like 'e', 't', 'a', etc.). We can also use a list of the 
                 most common English words and focus on patterns to determine which symbol is matched with which letter. 
                 We also must factor in the possibility that spaces are also replaced by another character.
