@@ -118,14 +118,14 @@ export default function Runaway() {
 
           {solution && (
             <div class="silkscreen-regular" id="solutionexp">
-              <p>Unless we can recognise the skyline immediately, we don’t have much to work with. However, at some point in the video we see 
+              <p>Unless we can recognise the skyline immediately, we don’t have much to work with. However, at some point in the video, we see 
                 advertisements on an LED screen. One of the ads says “O’Brien Icehouse” and if we search this up, it says that they are located 
-                in Docklands. Of course we are not 100% sure that this is correct but it’s worth giving it a shot.
+                in Docklands. Of course, we are not 100% sure that this is the correct area but it’s worth giving it a shot.
               </p>
               <img class="photo" src={sol} alt="property" style={{ marginRight: '20px', width: '200px' }}/>
               <img class="photo" src={sol1} alt="property" style={{ width: '200px' }}/>
               <p>
-                If we were to compare the Docklands skyline with the one in the video, we see a couple buildings that match, in particular this one. 
+                If we were to compare the Docklands skyline with the one in the video, we see a couple of buildings that match, in particular this one. 
               </p>
               <img class="photo" src={sol2} alt="property" style={{ marginRight: '20px', width: '100px' }}/>
               <img class="photo" src={sol3} alt="property" style={{ width: '100px' }}/>

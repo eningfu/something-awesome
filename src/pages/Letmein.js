@@ -140,7 +140,7 @@ export default function Letmein() {
                     It checks for HTML injection by incorporating an HTML tag (&lt;h1&gt;)
                   </li>
                 </ul>
-                We can easily determine that it’s reflected xss that we are working with here.
+                We can easily determine that it’s reflected XSS that we are working with here.
               </p>
               <img class="photo" src={sol} alt="sol"/>
               <p>

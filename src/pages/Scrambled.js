@@ -51,7 +51,7 @@ export default function Scrambled() {
   const text3 = "three letter words ‘e*3’, ‘\ae’, and ‘}a‘"
   // eslint-disable-next-line
   const text4 = "Based on the positioning of ‘(‘ in ‘}a(‘ and the frequency of ‘(‘, I am inclined to believe that ‘(‘ is ‘e’ - making ‘}a(‘, ‘the’. This now means that ‘\ae’ is likely to be ‘who’ or ‘why’ based on common 3 letter words, but when we take a look at ‘e*3’ there is no suitable word begins with ‘o’, suggesting that ‘\ae’ is ‘why’. Then making ‘e*3’ likely to be ‘you’."
-  const text5 = "The double letters are likely to be ‘s’ due to its frequency. When we substitute this in, ‘$<<3g(‘ seems to be assume, leaving ’4’ to be ‘i’. ‘4p<4!(?’ also seems like it would be ‘inside’ and ‘1*g(‘ to be ‘come’."
+  const text5 = "The double letters are likely to be ‘s’ due to their frequency. When we substitute this in, ‘$<<3g(‘ seems to be assume, leaving ’4’ to be ‘i’. ‘4p<4!(?’ also seems like it would be ‘inside’ and ‘1*g(‘ to be ‘come’."
 
   return (
     <>
@@ -107,7 +107,7 @@ export default function Scrambled() {
 
           {solution && (
             <div class="silkscreen-regular" id="solutionexp">
-              <p>First thing we do is try to recognise what cipher is being used. Based on what we see, it seems like a 
+              <p>The first thing we do is try to recognise what cipher is being used. Based on what we see, it seems like a 
                 substitution cipher that includes symbols, which means that we have to do the deciphering manually. A 
                 common approach to solving substitution ciphers is frequency analysis - analyzing the frequency of symbols 
                 and mapping them to common letters in English (like 'e', 't', 'a', etc.). We can also use a list of the 
@@ -121,7 +121,7 @@ export default function Scrambled() {
               <img class="photo" src={imgsol3} alt="property" style={{ height: "300px" }}/>
               <img class="photo" src={imgsol2} alt="property" style={{ height: "300px" }}/>
               <p>
-              I also looked at what the most commonly used words were in the English language by looking at Wikipedia's Most common words in English . 
+              I also looked at what the most commonly used words were in the English language by looking at Wikipedia's Most common words in English. 
               From this list, we see that the commonly used words are around 1-4 characters in length, so this could also help us determine the location of spaces.
               <br/>
               <br/>

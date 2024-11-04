@@ -16,7 +16,7 @@ export default function Stega() {
             <br/>
             <br/>
             <b>Image steganography</b> typically hides data within the pixels of an image file. For instance, a message might be embedded 
-            by altering the least significant bits of an image’s color values. This technique is known as Least Significant Bit (LSB) manipulation.
+            by altering the least significant bits of an image’s colour values. This technique is known as Least Significant Bit (LSB) manipulation.
             <br/>
             <br/>
             <b>Audio steganography</b> works by embedding information within audio files, often by slightly modifying audio samples at a level that is 

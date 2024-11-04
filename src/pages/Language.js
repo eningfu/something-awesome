@@ -114,7 +114,7 @@ export default function Language() {
               <img class="photo" src={sol} alt="solution"/>
               <p>
               After checking each word in the terminal, we see that the “G” in Good, “o” afternoon, “T” in Tirana, “s” in is, “p” 
-              in hope, “o” in detour, “T” in Tblisi, “T” in then, “e” in then, and “d” in deliver are actually Cyrillic and not Latin. 
+              in hope, “o” in detour, “T” in Tbilisi, “T” in then, “e” in then, and “d” in deliver are actually Cyrillic and not Latin. 
               They spell out “got spotted”.
               </p>
             </div>

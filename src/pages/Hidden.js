@@ -101,7 +101,7 @@ export default function Hidden() {
               <img class="photo" src={sol} alt="wallpaper" style={{ marginTop: "20px" }}/>
               <p>
                 But we discover the file is password protected, and we encounter a prompt asking for the password. 
-                Of course we don’t know the password but there is a way to brute force it - using Stegcracker or Stegseek (sudo 
+                Of course, we don’t know the password but there is a way to brute force it - using Stegcracker or Stegseek (sudo 
                 apt install stegcracker/stegseek first if we don’t have it). This tool is specifically designed to brute-force 
                 Steghide passwords. We just need a wordlist, and one of the most commonly used lists is rockyou.txt. 
                 Now we try this command in our terminal.

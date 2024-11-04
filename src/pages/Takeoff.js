@@ -114,18 +114,18 @@ export default function Takeoff() {
 
           {solution && (
             <div class="silkscreen-regular" id="solutionexp">
-              <p>Zooming in onto the aircraft’s body near the tail, we see the code “9M-MTF”. This is the aircraft’s unique registration code. 
-                We can search this up in Google to find the plane’s flight records. However, we first need to find out when this photo was taken 
+              <p>Zooming in on the aircraft’s body near the tail, we see the code “9M-MTF”. This is the aircraft’s unique registration code. 
+                We can search this in Google to find the plane’s flight records. However, we first need to find out when this photo was taken 
                 to know which flight record to look at. 
               <br/><br/>
-                Each photo has its own metadata, or EXIF data. By downloading the image and viewing its properties, we see that the photo was 
+                Each photo has its own metadata or EXIF data. By downloading the image and viewing its properties, we see that the photo was 
                 taken on August 26th, 2024, at 11:30am. 
               </p>
               <img class="photo" src={prop} alt="propeties"/>
               <p>
-                Now we can search up the flight registration code along with the date. The time is something we can temporarily disregard as the 
+                Now we can search for the flight registration code along with the date. The time is something we can temporarily disregard as the 
                 aircraft still looks like it’s loading cargo. We find a flight on the 26th of August 2024 departing Sydney with Kuala Lumpur as its 
-                destination. Its recorded departure time was past 1pm, which fits the time of events. The aircraft landed at its destination at 7:57PM.
+                destination. Its recorded departure time was past 1pm, which fits the time of events. The aircraft landed at its destination at 7:57pm.
               </p>
               <img class="photo" src={imgsol} alt="findmeexp"/>
             </div>
